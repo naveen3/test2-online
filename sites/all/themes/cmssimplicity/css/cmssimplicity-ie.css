@@ -1,0 +1,35 @@
+/* --------------------------------------------------------------------------
+ *
+ * Copyright CMS Quick Start 2010.
+ * The following CSS is to be used only for approved CMS Quick Start themes.
+ *
+ * -------------------------------------------------------------------------*/
+
+* html #pause-cycle, * html #resume-cycle, #search-block-form .form-item, #search-block-form .form-submit, .white-corner-top, .white-corner-bottom, .white-corner-topright, .white-corner-bottomright { /* Cropped background images */
+ behavior:expression((this.runtimeStyle.behavior="none")&&(this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none", this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')", this.src = "images/blank.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("', '').replace('")', ''), this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')", this.runtimeStyle.backgroundImage = "none")), this.pngSet=true) );
+}
+.featured-bottom-corner {
+  margin-bottom:-1px;
+}
+#admin-menu {
+  clear:both;
+}
+* html #header1 .block .content {
+  float:right;
+}
+/*** Listing ***/
+/* Arrow */
+div.item-list ul li, ul.arrow li {
+  list-style-image:url(../images/ie/list-arrow-ie.png);
+}
+/* Star */
+ul.star li {
+  list-style-image:url(../images/ie/list-star-ie.png);
+}
+/* Check */
+ul.check li {
+  list-style-image:url(../images/ie/list-check-ie.png);
+}
+legend, legend a{
+  float:left;
+}

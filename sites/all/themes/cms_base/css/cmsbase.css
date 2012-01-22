@@ -1,0 +1,502 @@
+/* --------------------------------------------------------------------------
+ *
+ * Copyright CMS Quick Start 2009.
+ * The following CSS is to be used only for approved CMS Quick Start themes.
+ *
+ * -------------------------------------------------------------------------*/
+
+
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:75%;
+	margin: 0;
+	padding: 0;
+}
+body.front, body.not-front {
+	font-size:100%;
+}
+/*************************************************/
+/* HELPER CLASSES */
+/*************************************************/
+.clearall {
+	clear:both;
+}
+.floatr {
+	float: right;
+}
+.floatl {
+	float: left;
+}
+.clear-block {
+	display:block;
+}
+/*************************************************/
+/* TYPOGRAPHY */
+/*************************************************/
+h1, h2, h3, h4, h5, h6 {
+	margin: 0.1em 0 0.25em;
+	line-height:1.2em;
+	font-weight: bold;
+}
+h1 {
+	font-size: 2.67em;
+}
+h2 {
+	font-size: 2.00em;
+}
+h3 {
+	font-size: 1.67em;
+}
+h4 {
+	font-size: 1.48em;
+}
+h5 {
+	font-size: 1.33em;
+}
+h6 {
+	font-size: 1.08em;
+}
+h5, h6 {
+	font-weight:bold;
+}
+h1.title {
+	margin-top:0px;
+	font-weight:normal;
+}
+#site-name {
+	font-size:2.67em;
+	font-weight:bold;
+	line-height:1.2em;
+}
+blockquote {
+	padding: 0px;
+}
+pre, p {
+	padding: 5px 0;
+	margin:0px;
+}
+a {
+	color:#0000ff;
+	text-decoration:none;
+	outline:0;
+}
+a:hover {
+	text-decoration:underline;
+}
+
+/*** list ***/
+ol, ul {
+  margin:10px 0;
+	padding-left:40px;
+}
+li {
+  margin:0px;
+}
+/*************************************************/
+/* LAYOUT */
+/*************************************************/
+#content-top4, #content-2-3, #content-bottom3, #content-bottom2, #footer2, #content-top1, #mission, .block, #top-text, #main-content, #content-top3 .block, #wrapper, #navigation, #content-inner, #main, #header1, #header-middle-inner, #footer, #content-body-wrapper-inner {
+	width:100%;
+}
+#header-wrapper, #header-middle, #logo-title, #header2, #header3, .grid_3, .grid_4, .grid_6, .grid_12, #content, #content-top4, #content-2-3, #content-bottom3, #content-bottom2, #footer2, #content-top1, #mission, .block, #top-text, #main-content, #content-top3 .block, #wrapper, #navigation, #content-inner, #main, #header1, #header-middle-inner, #footer, #content-body, #sidebar-left, #sidebar-right, #sidebar-right2, #content-top2, .floatl, .block-menu ul.menu li, #content-top2, #site-name-slogan, #logo, #content-body-wrapper-inner {
+	float:left;
+}
+#wrapper {
+	text-align:left;
+	font-size:0.75em;
+	line-height:1.5em;
+}
+#wrapper-inner {
+	margin:auto;
+	background:#F4F4F4;
+	width:960px;
+}
+#navigation .inner, #top-text, .grid_12, .grid_full {
+	width:940px;
+}
+#main, #footer {
+	clear:both;
+}
+#header-middle, #top-text, #main-content {
+	padding-bottom:15px;
+}
+#logo {
+	padding-right:10px;
+}
+/*** Header Regions***/
+#header-wrapper {
+	padding:0 10px;
+}
+#header3 .block, #header2 .block {
+	float:right;
+	clear:both;
+	width:auto;
+}
+#header3 .block, #header2 .block {
+	padding:5px 0;
+}
+#navigation h2, #header-wrapper h2 {
+	display:none;
+}
+#header-middle-inner {
+	padding:15px 0px;
+	background:#eaeaea;
+}
+#logo img {
+	display:block;
+}
+#header-2-3-container {
+	width:auto;
+}
+#header3, #header2 {
+	width:200px;
+}
+/*** Navigation Region ***/
+#navigation {
+	height:3em;
+	margin:0 -100% 0 0;
+	padding:0;
+}
+#navigation .inner {
+	padding:0 10px;
+}
+/*** Main Body ***/
+#content {
+	margin-right:-960px;
+	padding:0;
+	width:960px;
+}
+body.navigation #content {
+	margin-top:3em;
+}
+/*** Main Body Upper Regions ***/
+#content-top2, #content-top3 {
+	width:460px;
+	padding:0 10px;
+}
+#content-top3 {
+	float:right;
+}
+/*** Main Body Middle Regions ***/
+#content-body, #sidebar-left, #sidebar-right, #sidebar-right2 {
+	display:inline;
+	margin:0 10px;
+}
+/*** Main Body Sidebars ***/
+#sidebar-left, #sidebar-right, #sidebar-right2 {
+	overflow:hidden;
+}
+/*** Main Body Lower Regions ***/
+
+/*** Footer ***/
+#footer2 {
+	padding-top:10px;
+}
+#footer-message, #cmsquickstart {
+	padding:0 10px 10px;
+}
+#cmsquickstart {
+	font-size:0.89em;
+}
+/*************************************************/
+/* NAVIGATION */
+/*************************************************/
+#navigation .block-menu {
+	padding-bottom:0px;
+}
+.block-menu ul {
+	margin:0;
+	padding:0;
+}
+.block-menu ul.menu li {
+	list-style:none;
+	margin:0 20px 0 0;
+	padding:0;
+}
+ul.nice-menu a {
+	padding:4px 5px
+}
+/*************************************************/
+/* CONTENT */
+/*************************************************/
+#mission {
+	padding:20px 0px 20px 0px;
+	background:#EEEEEE;
+}
+#mission .inner {
+	padding:0px 20px 0px;
+}
+#top-text {
+	padding-left:10px;
+	padding-right:10px;
+}
+/*************************************************/
+/* BLOCKS */
+/*************************************************/
+.block {
+	padding-bottom:15px;
+}
+.block-inner {
+	background:#EAEAEA;
+}
+.block-inner:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.block-inner {
+	display: inline-block;
+}
+ 
+html[xmlns] .block-inner {
+	display: block;
+}
+* html .block-inner {
+	height: 1%;
+}
+/*** Block widths vary depending on how many blocks are in a region ***/
+.grid_3, .grid_4, .grid_6, .grid_12 {
+	display: inline;
+	position: relative;
+	margin: 0 10px;
+}
+.grid_3 {
+	width: 220px;
+}
+.grid_4 {
+	width:300px;
+}
+.grid_6 {
+	width: 460px;
+}
+/*** Block edit tabs ***/
+div.block.with-block-editing {
+	position: relative;
+}
+div.block.with-block-editing div.block-edit {
+	display: none;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 40;
+	border: 1px solid #eee;
+	padding: 0 2px;
+	font-size: 9px;
+	background-color: #fff;
+}
+div.block.with-block-editing:hover div.block-edit {
+	display: block;
+}
+/*************************************************/
+/* SEARCH */
+/*************************************************/
+.block-search label {
+	display:none;
+}
+/*************************************************/
+/* TABLES */
+/*************************************************/
+tr.even, tr.odd {
+	border:none;
+	background:none;
+	padding:0;
+}
+tr.even td, tr.odd td {
+	border-bottom:1px solid #CCCCCC;
+	background:#EEEEEE;
+	padding:0.1em 0.6em;
+}
+/*************************************************/
+/* FORMS */
+/*************************************************/
+input.form-text, textarea.form-textarea {
+	border:1px solid #AAAAAA;
+	margin:0;
+	padding:3px;
+}
+.form-item .description {
+	font-size:0.85em;
+	line-height:1em;
+	padding:5px 0;
+}
+fieldset {
+	padding:10px;
+	margin-bottom:30px;
+	border:1px solid #cccccc;
+}
+fieldset legend {
+	font-size:1.5em;
+}
+label {
+	margin-bottom:4px;
+}
+/*************************************************/
+/* TOOLTIP */
+/*************************************************/
+#tooltip {
+	color: #fff;
+	font-size: 10px;
+	position: absolute;
+	width: auto;
+	z-index: 9999;
+}
+#tooltip .tipHeader {
+	height: 8px;
+}
+#tooltip .tipBody {
+	background-color: #000;
+	padding: 5px 5px 5px 15px;
+}
+#tooltip .tipFooter {
+	height: 8px;
+}
+#tooltip {
+	background-color: #eee;
+	border: 1px solid black;
+	position: absolute;
+	z-index: 5000;
+}
+#tooltip h3, #tooltip div {
+	margin: 0;
+}
+#tooltip h3 {
+	background-color: #ffffe1;
+	color: #000;
+	font-size: 11px;
+	font-weight: normal;
+	line-height: normal;
+	padding: 4px 7px;
+}
+/*************************************************/
+/* SYSTEM */
+/*************************************************/
+/*** Primary Tabs ***/
+.tabs {
+	padding-bottom:10px;
+	width:100%;
+	float:left;
+}
+.tabs ul.primary {
+	margin:0px;
+	padding:0px;
+	font-weight:bold;
+	border:none;
+	background:url(../images/tab-right.gif) left bottom no-repeat;
+	padding-bottom:1px;
+}
+.tabs ul.primary li {
+	float:left;
+	display:block;
+	margin:0px;
+	padding:0px;
+	background:url(../images/tab-right.gif) right -75px no-repeat;
+	margin-left:8px;
+}
+.tabs ul.primary li.active {
+	position:relative;
+	bottom:-1px;
+	background:url(../images/tab-right.gif) right -42px no-repeat;
+	padding-top:0px;
+}
+.tabs ul.primary li.active a:link, .tabs ul.primary li.active a:visited, .tabs ul.primary li.active a:hover {
+	background:url(../images/tab-left.gif) left -42px no-repeat;
+	color:#000000;
+	padding:5px 12px 4px 12px;
+}
+.tabs ul.primary li a:link, .tabs ul.primary li a:visited {
+	float:left;
+	display:block;
+	padding:6px 12px 3px 12px;
+	margin:0px;
+	border:0px;
+	background:none;
+	color:#000000;
+	text-decoration:none;
+}
+.tabs ul.primary li a:hover {
+	color:#FFFFFF;
+	background:transparent url(../images/tab-right.gif) no-repeat scroll right -7px;
+}
+/*** Secondary Tabs ***/
+.tabs ul.secondary {
+	padding:7px 0px;
+	margin:0px;
+	font-size:.9em;
+}
+.tabs ul.secondary li, .tabs ul.secondary li.active a.active {
+	padding:0px 0px 0px 10px;
+	margin:0px;
+	border:none;
+	display:block;
+	float:left;
+}
+.tabs ul.secondary li a:link, .tabs ul.secondary li a:visited, .tabs ul.secondary li.active a:link, .tabs ul.secondary li.active a:visited {
+	padding:3px 8px;
+	display:block;
+	float:left;
+	color:#000000;
+	background:transparent url(../images/tab-right.gif) no-repeat scroll right -76px;
+}
+.tabs ul.secondary li a:hover, .tabs ul.secondary li.active a.active:hover {
+	background:transparent url(../images/tab-right.gif) no-repeat scroll right -7px;
+	color:#ffffff;
+}
+/*** Terms ***/
+.terms-inline ul li {
+	display:inline;
+}
+/*** Message boxes ***/
+div.status, div.error, div.messages, div.warning {
+	margin: 10px 0;
+	padding:10px 10px 10px 70px;
+}
+div.messages, div.status {
+	background: #d7ff90 url(../images/icons/message_status.gif) no-repeat scroll 17px center;
+}
+div.warning {
+	background: #ffeaa1 url(../images/icons/message_warning.gif) no-repeat scroll 17px center;
+}
+div.error {
+	background: #ffb0b0 url(../images/icons/message_error.gif) no-repeat scroll 17px center;
+}
+/*** Block region admin ***/
+.block-region {
+	clear:both;
+	margin-top:0px;
+	color:#000000;
+	border:2px solid #000000;
+}
+* html .block-region {
+	height:18px;
+}
+.block-region, * html .block-region {
+	overflow:hidden;
+}
+#content-2-3 .block-region, #content-top-4 .block-region, #content-bottom2 .block-region, #content-bottom3 .block-region, #content-top1 .block-region, #content-top4 .block-region, #footer1 .block-region, #footer2 .block-region {
+	margin-left:10px;
+	margin-right:10px;
+}
+#footer2 {
+	padding-top:15px;
+}
+#content-2-3 .block-region {
+	margin-left:0px;
+	margin-right:0px;
+}
+#content, #content-top3 .block-region {
+	margin-left:0px;
+}
+#content-top2 .block-region, #content-top3 .block-region {
+	margin-left:0px;
+	margin-right:0px;
+}
+/**** Admin Bulil Block Page Side Bar Width ***/
+body.page-admin-build-block #sidebar-right, body.page-admin-build-block-list #sidebar-right, body.page-admin-build-block #sidebar-right2, body.page-admin-build-block-list #sidebar-right2, body.page-admin-build-block #sidebar-left, body.page-admin-build-block-list #sidebar-left {
+	width:140px;
+}
+body.page-admin-build-block #content-body, body.page-admin-build-block-list #content-body {
+	width:460px;
+}

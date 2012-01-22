@@ -1,0 +1,59 @@
+/*************************************************/
+/* LAYOUT */
+/*************************************************/
+.header1 {
+  -webkit-border-bottom-left-radius:5px;
+  -webkit-border-bottom-right-radius:5px;
+  -moz-border-radius-bottomleft:5px;
+  -moz-border-radius-bottomright:5px;
+}
+#footer {
+  -webkit-border-top-left-radius:5px;
+  -webkit-border-top-right-radius:5px;
+  -moz-border-radius-topleft:5px;
+  -moz-border-radius-topright:5px;
+}
+/*** Sticky ***/
+.sticky {
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+}
+/*** Comments ***/
+.comments-heading {
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+}
+.comment-content {
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+}
+/*************************************************/
+/* SYSTEM */
+/*************************************************/
+/*** Breadcrumbs ***/
+.breadcrumb {
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+}
+/*** Book ***/
+.page-links, .forum-topic-navigation { /* Book Navigation and Forum Topic Navigation */
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+}
+/*************************************************/
+/* Block Theme */
+/*************************************************/
+/*** Block theme title common css ***/
+.colored-block-title, .dark-block-title, .light-block-title {
+  -webkit-border-top-left-radius:5px;
+  -webkit-border-top-right-radius:5px;
+  -moz-border-radius-topleft:5px;
+  -moz-border-radius-topright:5px;
+}
+/*** Common gray background ***/
+.colored-title-content, .dark-title-content, .light-title-content {
+  -webkit-border-bottom-left-radius:5px;
+  -webkit-border-bottom-right-radius:5px;
+  -moz-border-radius-bottomleft:5px;
+  -moz-border-radius-bottomright:5px;
+}

@@ -1,0 +1,76 @@
+/* --------------------------------------------------------------------------
+ *
+ * Copyright CMS Quick Start 2010.
+ * The following CSS is to be used only for approved CMS Quick Start themes.
+ *
+ * -------------------------------------------------------------------------*/
+
+/*************************************************/
+/* TYPOGRAPHY */
+/*************************************************/
+a:link, a:visited, li a.active {
+  color:#b10c27;
+}
+#header1 a:link, #header1 a:visited, #footer a:link, #footer a:visited {
+  color:#4d010d;
+}
+/*************************************************/
+/* LAYOUT */
+/*************************************************/
+#header1 {
+  background:#df4f56;
+}
+#footer {
+  background:#df4f56;
+}
+#content-top4, #content-top4-inner, #content-top4-sub-inner, #content-bottom3, #content-bottom3-inner, #content-bottom3-sub-inner {
+  background-image:url(images/color-bg.png)
+}
+/*** Node Links ***/
+ul.links li.node_read_more a:link, ul.links li.node_read_more a:visited {
+  background-image:url(images/link-read-more.gif);
+}
+/*************************************************/
+/* NAVIGATION */
+/*************************************************/
+#navigation ul li:hover a:link, #navigation ul li:hover a:visited, #navigation ul li:hover a span,
+#navigation ul li.ie-over a:link, #navigation ul li.ie-over a:visited, #navigation ul li.ie-over a span {
+  background-image:url(images/nav-hover-bg.png);
+}
+#navigation ul li li {
+  background-color:#df4f56;
+}
+#navigation ul li:hover li:hover, #navigation ul li:hover li.active,
+#navigation ul li.ie-over li.ie-over, #navigation ul li.ie-over li.active {
+  background-color:#f26b71;
+}
+/*************************************************/
+/* SYSTEM */
+/*************************************************
+/*** Breadcrumbs ***/
+.breadcrumb {
+  padding:6px 12px;
+	background:#fed2d4;
+}
+/** Primary Tabs **/
+.tabs ul.primary li {
+  background:#b10c27;
+}
+.tabs ul.primary li a:link, .tabs ul.primary li a:visited, .tabs ul.primary li a:hover {
+	background:#b10c27;
+}
+/*** Poll ***/
+.poll .bar .foreground {
+	background:#b10c27;
+}
+/*** Search button ***/
+#search-block-form .form-submit {
+  background-image:url(images/bt-search.png);
+}
+/*************************************************/
+/* Block Theme */
+/*************************************************/
+/*** Colored title with background ***/
+.colored-title h2.title {
+  background:#df4f56;
+}

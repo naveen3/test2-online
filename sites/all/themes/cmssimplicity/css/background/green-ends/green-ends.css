@@ -1,0 +1,25 @@
+/* --------------------------------------------------------------------------
+ *
+ * Copyright CMS Quick Start 2010.
+ * The following CSS is to be used only for approved CMS Quick Start themes.
+ *
+ * -------------------------------------------------------------------------*/
+
+/*************************************************/
+/* Page Background */
+/*************************************************/
+body.front, body.not-front {
+	background:#001826;
+}
+/*************************************************/
+/* LAYOUT */
+/*************************************************/
+#main-wrapper {
+	background-image: url(images/main-repeat.png);
+}
+#wrapper {
+	background-image: url(images/top-bg.png) ;
+}
+#wrapper-inner {
+	background-image: url(images/bottom-bg.png);
+}

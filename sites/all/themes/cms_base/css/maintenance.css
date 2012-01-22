@@ -1,0 +1,32 @@
+body{
+  padding:0px;
+  margin:0px;
+	font-size:75%;
+	font-family:Arial, Helvetica, sans-serif;
+	background:url(../images/pattern.gif)
+}
+#maintenance_wrapper {
+  width:679px;
+  position:absolute;
+  margin-left:-340px;
+  background:white;
+  left:50%;
+  height:198px;
+  top:50%;
+  margin-top:-172px;
+  background:url(../images/maintenance.gif) top left;
+	padding-top:145px;
+}
+
+h1 {
+  font-size:2.55em;
+	text-align:center;
+  font-weight:normal;
+	padding:20px 0px;
+	margin:0px;
+}
+.description {
+	font-size:1.20em;
+	padding:0 50px;
+	line-height:1.2em;
+}

@@ -1,0 +1,15 @@
+/* --------------------------------------------------------------------------
+ *
+ * Copyright CMS Quick Start 2009.
+ * The following CSS is to be used only for approved CMS Quick Start themes.
+ *
+ * -------------------------------------------------------------------------*/
+
+
+/*************************************************/
+/* BLOCKS */
+/*************************************************/
+/*** Block Themes ***/
+#block-no-bg h2.title, .block-border-title h2.title, .block-bg-gradient h2.title, .block-bg-white h2.title, .block-bg-solid h2.title {
+  display:inline-block;
+}

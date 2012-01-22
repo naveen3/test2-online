@@ -1,0 +1,107 @@
+; $Id$
+name        = CMS Simplicity
+description = A premium Drupal theme from <a href="http://www.cmsquickstart.com" target="_blank">CMS Quick Start</a> that provides advanced theme settings, flexible layouts, and multiple color and block styles. Designed to work with all core Drupal modules. Requires the CMS Base theme.
+
+screenshot = screenshot.png
+version = "6.x-1.1"
+core       = 6.x
+base theme = cms_base
+
+stylesheets[all][]   = css/cmssimplicity.css
+; Add all your css 3 properties in this file, we are using jquery rounded corners in order to make them rounded in ie
+stylesheets[all][]   = css/invalid.css
+
+
+; Set the conditional stylesheets that are processed by IE.
+conditional-stylesheets[if lte IE 7][all][] = css/cmssimplicity-ie.css
+
+; Add scripts to theme.
+scripts[] = scripts/cmssimplicity.js
+scripts[] = scripts/curvycorners.src.js
+
+regions[header1] = Header 1
+regions[header2] = Header 2
+regions[header3] = Header 3
+regions[navbar] = Navigation bar
+regions[content_top1] = Content top 1
+regions[content_top2] = Content top 2
+regions[content_top3] = Content top 3
+regions[content_top4] = Content top 4
+regions[content_top5] = Content top 5
+regions[left] = Left sidebar
+regions[right] = Right sidebar
+regions[right_sidebar2] = Right sidebar 2
+regions[content_bottom1] = Content bottom 1
+regions[content_bottom2] = Content bottom 2
+regions[content_bottom3] = Content bottom 3
+regions[footer] = Footer 1
+regions[footer2] = Footer 2
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = favicon
+; above defaults with only the needed features.
+;features[] = search
+;features[] = primary_links
+;features[] = secondary_links
+
+
+  ; Set the default settings to be used in theme-settings.php
+settings[block_editing_link]               			= 1
+settings[sidebar_left_width]   						= 140
+settings[width_sidebar_right]   					= 220
+settings[width_sidebar_right2]   					= 140
+settings[use_css_for_fonts]               			= 0
+settings[bodytext_font]       						= Georgia, 'Times New Roman', Times, serif
+settings[heading_font]       						= Georgia, 'Times New Roman', Times, serif
+settings[search_author_name]             			= 1
+settings[search_posted_date]              			= 1
+settings[search_text_snippet]             			= 1
+settings[search_node_type]             				= 1
+settings[search_node_comments]             			= 1
+settings[search_attachment_count]             		= 1
+settings[submitted_by_author_default]       		= 1
+settings[submitted_by_date_default]          		= 1
+settings[submitted_by_content_type]   				= 0
+settings[readmore_default]             				= Read more
+settings[readmore_title_default]              		= Read the rest of this posting.
+settings[readmore_prefix_default]            		= ''
+settings[readmore_suffix_default]            		= ''
+settings[readmore_content_type]       				= 0
+settings[comment_singular_default]           		= 1 comment
+settings[comment_plural_default]             		= @count comments
+settings[comment_title_default]             		= Jump to the first comment of this posting.
+settings[comment_prefix_default]             		= ''
+settings[comment_suffix_default]             		= ''
+settings[comment_new_singular_default]       		= 1 new comment
+settings[comment_new_plural_default]         		= @count new comments
+settings[comment_new_title_default]          		= Jump to the first new comment of this posting.
+settings[comment_new_prefix_default]         		= ''
+settings[comment_new_suffix_default]         		= ''
+settings[comment_add_default]             			= Add new comment
+settings[comment_add_title_default]         		= Add a new comment to this page.
+settings[comment_add_prefix_default]         		= ''
+settings[comment_add_suffix_default]         		= ''
+settings[comment_node_default]             		    = Add new comment
+settings[comment_node_title_default]         		= Share your thoughts and opinions related to this posting.
+settings[comment_node_prefix_default]        		= ''
+settings[comment_node_suffix_default]        		= ''
+settings[comment_content_type]        		        = 0
+settings[taxonomy_display_default]           		= only
+settings[taxonomy_format_default]            		= vocab
+settings[taxonomy_enable_content_type]       		= 0
+settings[user_notverified_display]          		= 1
+settings[block_editing_link]       				    = 1
+settings[breadcrumb]          						= yes
+settings[breadcrumb_separator]						= &raquo 
+settings[breadcrumb_home_link]     				    = 1
+settings[breadcrumb_trailing_separator] 			= 0
+settings[breadcrumb_title]    						= 0
+settings[rebuild_registry]    						= 0
+
+; Additional cmssimplicity theme settings
+settings[theme_color_style]    						= blue
+settings[theme_background]    						= blue-ends
